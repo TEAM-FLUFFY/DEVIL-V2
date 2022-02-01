@@ -359,7 +359,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('Check PM, I have sent files in pm',show_alert = True)
+                await query.answer(f'Hey {query.from_user.first_name} Check PM, I have sent files in pm',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
@@ -398,16 +398,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝙰 𝙲𝙷𝙰𝚃 𝙶𝚁𝙾𝚄𝙿', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+            InlineKeyboardButton('𝙶𝙾 𝚃𝙾 𝙸𝙽𝙻𝙸𝙽𝙴', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about')
             ],[
             InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
-            InlineKeyboardButton('𝙶𝚛𝚘𝚞𝚙', url='https://t.me/moviebus2')
+            InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿', url='https://t.me/+lHmq_QSfDNc4OGI1')
             ],[
-            InlineKeyboardButton('𝙾𝚠𝚗𝚎𝚛', url='https://t.me/albintko'),
-            InlineKeyboardButton('𝙲𝚑𝚊𝚗𝚗𝚎𝚕', url='https://t.me/+AMHw_K1wvOM3MTU9')
+            InlineKeyboardButton('𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url='https://t.me/TEAM_KERALA'),
+            InlineKeyboardButton('𝙲𝚁𝙴𝙰𝚃𝙴𝚁', url='https://t.me/TEAM_KERALA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -418,29 +418,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[            
-            InlineKeyboardButton('😎 𝐀𝐝𝐦𝐢𝐧 ', callback_data='admin'),
-            InlineKeyboardButton('🗳️ 𝐂𝐨𝐧𝐧𝐞𝐜𝐭 ', callback_data='coct'),
-            InlineKeyboardButton('👻 𝐅𝐢𝐥𝐭𝐞𝐫𝐬 ', callback_data='auto_manual')
+            InlineKeyboardButton(' 𝙰𝙳𝙼𝙸𝙽 ', callback_data='admin'),
+            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃 ', callback_data='coct'),
+            InlineKeyboardButton('𝙵𝙸𝙻𝚃𝙴𝚁𝚂 ', callback_data='auto_manual')
             ],[
-            InlineKeyboardButton('📖 𝐆𝐭𝐫𝐚𝐧𝐬 ', callback_data='gtrans'),
-            InlineKeyboardButton('📄 𝐈𝐧𝐟𝐨 ', callback_data='info'),
-            InlineKeyboardButton('🖥️ 𝐏𝐚𝐬𝐭𝐞 ', callback_data='paste')
+            InlineKeyboardButton('𝙶𝚁𝙰𝙽𝚃𝚂 ', callback_data='gtrans'),
+            InlineKeyboardButton('𝙸𝙽𝙵𝙾 ', callback_data='info'),
+            InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴 ', callback_data='paste')
             ],[
-            InlineKeyboardButton('💣 𝐏𝐮𝐫𝐠𝐞 ', callback_data='purge'),
-            InlineKeyboardButton('🔇 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭 ', callback_data='restric'),
-            InlineKeyboardButton('🔍 𝐒𝐞𝐚𝐫𝐜𝐡 ', callback_data='search')
+            InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴 ', callback_data='purge'),
+            InlineKeyboardButton('𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃 ', callback_data='restric'),
+            InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷 ', callback_data='search')
             ],[
-            InlineKeyboardButton('📸 𝐓𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph'),
-            InlineKeyboardButton('🤔 𝐖𝐡𝐨𝐢𝐬 ', callback_data='whois'),
-            InlineKeyboardButton('🤡 𝐅𝐮𝐧 ', callback_data='fun')
+            InlineKeyboardButton('𝚃𝙶𝚁𝙰𝙿𝙷 ', callback_data='tgraph'),
+            InlineKeyboardButton('𝚆𝙷𝙾𝙸𝚂 ', callback_data='whois'),
+            InlineKeyboardButton('𝙵𝚄𝙽 ', callback_data='fun')
             ],[
-            InlineKeyboardButton('🥱 𝐀𝐥𝐢𝐯𝐞 ', callback_data='alive'),
-            InlineKeyboardButton('🎶 𝐒𝐨𝐧𝐠 ', callback_data='song'),
-            InlineKeyboardButton('🖨️ 𝐉𝐬𝐨𝐧 ', callback_data='json')
+            InlineKeyboardButton('𝙰𝙻𝙸𝚅𝙴 ', callback_data='alive'),
+            InlineKeyboardButton('𝚂𝙾𝙽𝙶 ', callback_data='song'),
+            InlineKeyboardButton('𝙹𝚂𝙾𝙽 ', callback_data='json')
             ],[
-            InlineKeyboardButton('📌 𝐏𝐢𝐧 ', callback_data='pin'),
-            InlineKeyboardButton('🦠 𝐂𝐨𝐯𝐢𝐝 ', callback_data='corona'),
-            InlineKeyboardButton('🖨️ 𝐒𝐭𝐢𝐜𝐤𝐞𝐫𝐈𝐃 ', callback_data='stickerid')
+            InlineKeyboardButton('𝙿𝙸𝙽 ', callback_data='pin'),
+            InlineKeyboardButton('𝙲𝙾𝚅𝙸𝙳 ', callback_data='corona'),
+            InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙸𝙳', callback_data='stickerid')
             ],[
             InlineKeyboardButton('❈ 𝙱𝙰𝙲𝙺 ❈', callback_data='start')
         ]]
@@ -454,7 +454,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
-            InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', url='https://github.com/Samantha-a/DEVIL-V2')
+            InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', url='https://t.me/+xZxr5259iURjMmM1')
             ],[
             InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷 𝙼𝙾𝚅𝙸𝙴𝚂', switch_inline_query_current_chat=''),
             InlineKeyboardButton('𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂', callback_data='help')
