@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+AMHw_K1wvOM3MTU9')
+                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/moiveupdates2021')
             ],
             [
                 InlineKeyboardButton('𝙷𝙴𝙻𝙿', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -37,15 +37,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Jd_73_bot?startgroup=true')
+            InlineKeyboardButton('𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝙰 𝙲𝙷𝙰𝚃 𝙶𝚁𝙾𝚄𝙿', url='http://t.me/Jd_73_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Group', url='https://t.me/moviebus2')
+            InlineKeyboardButton('𝙶𝙾 𝚃𝙾 𝙸𝙽𝙻𝙸𝙽𝙴', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿', url='https://t.me/moviebus2')
             ],[
-            InlineKeyboardButton('Channel', url='https://t.me/+AMHw_K1wvOM3MTU9')
+            InlineKeyboardButton('𝙲𝙷𝙰𝙽𝙽�', url='https://t.me/+AMHw_K1wvOM3MTU9')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
+            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -80,15 +80,15 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Jd_73_bot?startgroup=true')
+            InlineKeyboardButton('𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝙰 𝙲𝙷𝙰𝚃 𝙶𝚁𝙾𝚄𝙿', url='http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Group', url='https://t.me/moviebus2')
+            InlineKeyboardButton('𝙶𝙾 𝚃𝙾 𝙸𝙽𝙻𝙸𝙽𝙴', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿', url='https://t.me/+lHmq_QSfDNc4OGI1')
             ],[
-            InlineKeyboardButton('Channel', url='https://t.me/+AMHw_K1wvOM3MTU9')
+            InlineKeyboardButton('𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url='https://t.me/TEAM_KERALA')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
+            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
