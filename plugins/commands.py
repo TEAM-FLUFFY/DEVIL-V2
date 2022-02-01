@@ -42,7 +42,7 @@ async def start(client, message):
             InlineKeyboardButton('𝙶𝙾 𝚃𝙾 𝙸𝙽𝙻𝙸𝙽𝙴', switch_inline_query_current_chat=''),
             InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿', url='https://t.me/moviebus2')
             ],[
-            InlineKeyboardButton('𝙲𝙷𝙰𝙽𝙽�', url='https://t.me/+AMHw_K1wvOM3MTU9')
+            InlineKeyboardButton('𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url='https://t.me/TEAM_KERALA')
             ],[
             InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
             InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about')
