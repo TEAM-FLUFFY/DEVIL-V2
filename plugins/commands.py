@@ -37,15 +37,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝙰 𝙲𝙷𝙰𝚃 𝙶𝚁𝙾𝚄𝙿', url='http://t.me/Jd_73_bot?startgroup=true')
-            ],[
-            InlineKeyboardButton('𝙶𝙾 𝚃𝙾 𝙸𝙽𝙻𝙸𝙽𝙴', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿', url='https://t.me/moviebus2')
-            ],[
-            InlineKeyboardButton('𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url='https://t.me/TEAM_KERALA')
-            ],[
-            InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
-            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about')
+            InlineKeyboardButton('𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝔸 ℂℍ𝔸𝕋 𝔾ℝ𝕆𝕌ℙ', url='http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -64,13 +56,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    " Join Updates Channel", url=invite_link.invite_link
+                    " 𝕁𝕆𝕀ℕ 𝕄𝕐 𝕌ℙ𝔻𝔸𝕋𝔼 ℂℍ𝔸ℕℕ𝔼𝕃 𝔸ℕ𝔻 𝕋ℝ𝕐 𝔸𝔾𝔸𝕀ℕ", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "Join":
-            btn.append([InlineKeyboardButton("𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("𝕋ℝ𝕐 𝔸𝔾𝔸𝕀ℕ", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
@@ -80,15 +72,7 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝙰 𝙲𝙷𝙰𝚃 𝙶𝚁𝙾𝚄𝙿', url='http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('𝙶𝙾 𝚃𝙾 𝙸𝙽𝙻𝙸𝙽𝙴', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿', url='https://t.me/+lHmq_QSfDNc4OGI1')
-            ],[
-            InlineKeyboardButton('𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url='https://t.me/TEAM_KERALA')
-            ],[
-            InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
-            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about')
+            InlineKeyboardButton('𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝔸 ℂℍ𝔸𝕋 𝔾ℝ𝕆𝕌ℙ', url='http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
