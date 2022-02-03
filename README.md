@@ -1,12 +1,12 @@
 𝐉𝐨𝐡𝐧 𝐃𝐮𝐫𝐚𝐢𝐫𝐚𝐣 
 
 𝚅𝚎𝚛𝚢 𝚂𝚎𝚖𝚙𝚒𝚕 𝙱𝚘𝚝 𝙰𝚞𝚝𝚘 𝙵𝚒𝚕𝚝𝚎𝚛 𝚋𝚘𝚝
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝐉𝐨𝐡𝐧+𝐃𝐮𝐫𝐚𝐢𝐫𝐚𝐣;𝗖𝗿𝗲𝗮𝘁𝗲𝗱+𝗕𝘆+𝗔𝗟𝗕𝗜𝗡+𝗧𝗞𝗢)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝕂𝔼ℝ𝔸𝕃𝔸+𝕊𝔼ℝ;𝗖𝗿𝗲𝗮𝘁𝗲𝗱+𝗕𝘆+𝔽𝕃𝕌𝔽𝔽𝕐 𝕊𝔼ℝ)
 </p>
 # 𝙲𝙻𝙸𝙲𝙺 𝙱𝙴𝙻𝙾𝚆 𝙸𝙼𝙰𝙶𝙴 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 👇
 
 
-[![Deploy](https://telegra.ph/file/02c798ec0f655dcc3dd95.jpg)](https://heroku.com/deploy?template=https://github.com/Samantha-a/DEVIL-V2)
+[![Deploy](https://telegra.ph/file/1b0e76374953c69ea89c7.jpg)](https://heroku.com/deploy?template=https://github.com/Samantha-a/DEVIL-V2)
 
 - [x] Auto Filter
 - [x] Manuel Filter
