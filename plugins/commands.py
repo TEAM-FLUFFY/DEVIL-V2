@@ -57,13 +57,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    " 𝕁𝕆𝕀ℕ 𝕄𝕐 𝕌ℙ𝔻𝔸𝕋𝔼 ℂℍ𝔸ℕℕ𝔼𝕃 𝔸ℕ𝔻 𝕋ℝ𝕐 𝔸𝔾𝔸𝕀ℕ", url=invite_link.invite_link
+                    " 🔔𝐉𝐎𝐈𝐍 𝐌𝐘 𝐔𝐏𝐃𝐀𝐓𝐄 𝐂𝐇𝐀𝐍𝐄𝐋🔔", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "Join":
-            btn.append([InlineKeyboardButton("𝕋ℝ𝕐 𝔸𝔾𝔸𝕀ℕ", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("🌀𝐓𝐑𝐘 𝐀𝐆𝐀𝐈𝐍🌀", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
@@ -73,8 +73,8 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝔸 ℂℍ𝔸𝕋 𝔾ℝ𝕆𝕌ℙ', url='http://t.me/Ramananshav3_bot?startgroup=true')
-            InlineKeyboardButton('𝔼𝔻𝕀𝕋𝔼ℝ', url='https://t.me/TEAM_KERALA')
+            InlineKeyboardButton('𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐀 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏', url='http://t.me/Tessa_autofilterbot?startgroup=true')
+            InlineKeyboardButton('𝔼𝔻𝕀𝕋𝔼ℝ', url="https://t.me/TEAM_KERALA")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
