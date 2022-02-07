@@ -73,7 +73,6 @@ async def start(client, message):
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐀 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏', url='http://t.me/Tessa_autofilterbot?startgroup=true')
-            InlineKeyboardButton('𝔼𝔻𝕀𝕋𝔼ℝ', url="https://t.me/TEAM_KERALA")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
