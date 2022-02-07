@@ -9,8 +9,8 @@ class script(object):
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
 ╔════❰ 𝗔𝘁𝗵𝗶𝗳 𝗠𝘂𝗵𝗮𝗺𝗺𝗲𝗱 ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣ 
-║┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Rocky_Bhaikgfbot"> 𝖧𝖣 𝖱𝖮𝖢𝖪𝖸 𝖡𝖧𝖠𝖨 </a>
-║┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁- <a href="https://t.me/TEAM_KERALA"> 𝖧𝖣 𝖮𝖶𝖭𝖤𝖱 </a>
+║┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Rocky_Bhaikgfbot"> 𝖠𝖣 𝖱𝖮𝖢𝖪𝖸 𝖡𝖧𝖠𝖨 ᵏᵍᶠ </a>
+║┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁- <a href="https://t.me/TEAM_KERALA"> 🚬𝗥𝗢𝗖𝗞𝗬 𝗕𝗛𝗔𝗜 ᵏᵍᶠ </a>
 ║┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ║┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ║┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
