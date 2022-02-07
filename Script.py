@@ -9,8 +9,8 @@ class script(object):
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
 ╔════❰ 𝐉𝐨𝐡𝐧 𝐃𝐮𝐫𝐚𝐢𝐫𝐚𝐣 ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣ 
-║┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Jd_73_bot"> 𝐉𝐨𝐡𝐧 𝐃𝐮𝐫𝐚𝐢𝐫𝐚𝐣 </a>
-║┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁- <a href="https://t.me/albintko"> 𝔹𝕠𝕤𝕤 </a>
+║┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Fs_v3bot"> 🚬𝗣𝗨𝗦𝗛𝗣𝗔 𝗥𝗔𝗝⚡ </a>
+║┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁- <a href="https://t.me/TEAM_KERALA"> 𝗥𝗢𝗖𝗞𝗬 𝗕𝗛𝗔𝗜 </a>
 ║┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ║┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ║┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -19,7 +19,7 @@ class script(object):
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝑰 𝒂𝒎  𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
-- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://github.com/Samantha-a/DEVIL-V2"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
+- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://github.com/TEAM-FLUFFY/FluffyV1"> 🎗️𝗖𝗟𝗜𝗖𝗞 𝗠𝗘🎗️ </a>
 
 𝙲𝚁𝙴𝙰𝚃𝙾𝚁:
 <a href="https://t.me/albintko"> 𝙰𝙻𝙱𝙸𝙽  </a>"""
