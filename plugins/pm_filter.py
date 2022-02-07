@@ -415,7 +415,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💘𝙲𝙾𝙽𝙽𝙴𝙲𝚃 ', callback_data='coct'),
             InlineKeyboardButton('🏷️𝙵𝙸𝙻𝚃𝙴𝚁𝚂 ', callback_data='auto_manual')
             ],[
-            InlineKeyboardButton('🕸️𝙶𝚁𝙰𝙽𝚃𝚂 ', callback_data='gtrans'),
             InlineKeyboardButton('🕵️‍♂️𝙸𝙽𝙵𝙾 ', callback_data='info'),
             InlineKeyboardButton('📌𝙿𝙰𝚂𝚃𝙴 ', callback_data='paste')
             ],[
@@ -426,7 +425,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('📄𝚃𝙶𝚁𝙰𝙿𝙷 ', callback_data='tgraph'),
             InlineKeyboardButton('⭐𝙵𝚄𝙽 ', callback_data='fun')
             ],[
-            InlineKeyboardButton('😵𝙳𝙴𝙰𝙳 ', callback_data='alive'),
             InlineKeyboardButton('🎵𝚂𝙾𝙽𝙶 ', callback_data='song'),
             InlineKeyboardButton('🖇️𝙹𝚂𝙾𝙽 ', callback_data='json')
             ],[
