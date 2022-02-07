@@ -37,10 +37,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚡𝗛𝗘𝗟𝗣⚡', callback_data='help'),
-            InlineKeyboardButton('🕵️‍♂️𝗦𝗘𝗔𝗥𝗖𝗛🕵️‍♂️', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('⚒️𝖧𝖤𝖫𝖯⚒️', callback_data='help'),
+            InlineKeyboardButton('🕵️‍♂️𝖲𝖤𝖠𝖱𝖢𝖧🕵️‍♂️', switch_inline_query_current_chat=''),
             ],[
-            InlineKeyboardButton('🕯️𝗔𝗗𝗗 𝗠𝗘 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣🕯️', url='http://t.me/Fs_v3bot?startgroup=true')
+            InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖸𝖮𝖴𝖱 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
+            ],[
+            InlineKeyboardButton('💡𝖦𝖱𝖮𝖴𝖯💡', url='https://t.me/ADHOLOKAMHD'),
+            InlineKeyboardButton('💡𝖢𝖧𝖠𝖭𝖭𝖤𝖫💡', url='https://t.me/ADHOLOKAMHDCHANNEL')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -60,13 +63,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    " 📌𝐉𝐎𝐈𝐍 𝐌𝐘 𝐔𝐏𝐃𝐀𝐓𝐄 𝐂𝐇𝐀𝐍𝐄𝐋📌", url=invite_link.invite_link
+                    " 💬𝖩𝖮𝖨𝖭 𝖠𝖭𝖣 𝖳𝖱𝖸 𝖠𝖦𝖠𝖨𝖭", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "Join":
-            btn.append([InlineKeyboardButton("🎗️𝐓𝐑𝐘 𝐀𝐆𝐀𝐈𝐍🎗️", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("𝖳𝖱𝖸 𝖠𝖦𝖠𝖨𝖭💭", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
@@ -76,10 +79,13 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚡𝗛𝗘𝗟𝗣⚡', callback_data='help'),
-            InlineKeyboardButton('🕵️‍♂️𝗦𝗘𝗔𝗥𝗖𝗛🕵️‍♂️', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('⚒️𝖧𝖤𝖫𝖯⚒️', callback_data='help'),
+            InlineKeyboardButton('🕵️‍♂️𝖲𝖤𝖠𝖱𝖢𝖧🕵️‍♂️', switch_inline_query_current_chat=''),
             ],[
-            InlineKeyboardButton('🕯️𝗔𝗗𝗗 𝗠𝗘 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣🕯️', url='http://t.me/Fs_v3bot?startgroup=true')
+            InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖸𝖮𝖴𝖱 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
+            ],[
+            InlineKeyboardButton('💡𝖦𝖱𝖮𝖴𝖯💡', url='https://t.me/ADHOLOKAMHD'),
+            InlineKeyboardButton('💡𝖢𝖧𝖠𝖭𝖭𝖤𝖫💡', url='https://t.me/ADHOLOKAMHDCHANNEL')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
