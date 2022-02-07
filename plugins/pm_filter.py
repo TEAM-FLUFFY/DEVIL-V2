@@ -88,16 +88,16 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("⬅️ 𝗕𝗮𝗰𝗸", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"🦋 𝗣𝗮𝗴𝗲 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
+            [InlineKeyboardButton("𝙱𝙰𝙲𝙺 𝙿𝙰𝙶𝙴", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"🦋 𝗣𝗮𝗴𝗲 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
         )
     elif off_set is None:
-        btn.append([InlineKeyboardButton(f"🦋 𝗣𝗮𝗴𝗲 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("𝗡𝗲𝘅𝘁 ➡️", callback_data=f"next_{req}_{key}_{n_offset}")])
+        btn.append([InlineKeyboardButton(f"🎭 𝗣𝗔𝗚𝗘 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("𝗡𝗲𝘅𝘁 ➡️", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("⬅️ 𝗕𝗮𝗰𝗸", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"🦋 𝗣𝗮𝗴𝗲 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
-                InlineKeyboardButton("𝗡𝗲𝘅𝘁 ➡️", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("𝙱𝙰𝙲𝙺 𝙿𝙰𝙶𝙴", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton(f"🎭 𝗣𝗔𝗚𝗘{round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
+                InlineKeyboardButton("𝙽𝙴𝚇𝚃 𝙿𝙰𝙶𝙴", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -359,7 +359,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer(f'Hey {query.from_user.first_name} Check PM, I have sent files in pm',show_alert = True)
+                await query.answer(f'𝙷𝙴𝚈 {query.from_user.first_name} 𝙲𝙷𝙴𝙲𝙺 𝙿𝙼, 𝙸 𝙷𝙰𝚅𝙴 𝚂𝙴𝙽𝚃 𝙵𝙸𝙻𝙴 𝚈𝙾𝚄𝚁 𝙿𝙼.. ❤️❤️',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
@@ -398,7 +398,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝔸 ℂℍ𝔸𝕋 𝔾ℝ𝕆𝕌ℙ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('💡𝗛𝗘𝗟𝗣💡', callback_data='help'),
+            InlineKeyboardButton('🔍𝗦𝗘𝗔𝗥𝗖𝗛🔍', switch_inline_query_current_chat=''),
+            ],[
+            InlineKeyboardButton('🕯️𝗟𝗘𝗧'𝗦 𝗥𝗢𝗟𝗟🕯️', url='http://t.me/Fs_v3bot?startgroup=true'),
+            InlineKeyboardButton('🤠𝗔𝗕𝗢𝗨𝗧🤠', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -444,8 +448,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
-            InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', url='https://t.me/+xZxr5259iURjMmM1')
+            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚂', callback_data='stats'),
+            InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', url='https://github.com/TEAM-FLUFFY/FluffyV1')
             ],[
             InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷 𝙼𝙾𝚅𝙸𝙴𝚂', switch_inline_query_current_chat=''),
             InlineKeyboardButton('𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂', callback_data='help')
@@ -711,7 +715,7 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='about'),
-            InlineKeyboardButton('Refresh ✈︎', callback_data='rfrsh')
+            InlineKeyboardButton('💡𝚁𝙴𝙵𝚁𝙴𝚂𝙷💡', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -733,7 +737,7 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         await query.answer("Fetching DataBase Info")
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='about'),
-            InlineKeyboardButton('Refresh ✈︎', callback_data='rfrsh')
+            InlineKeyboardButton('💡𝚁𝙴𝙵𝚁𝚂𝙷💡', callback_data='rfrsh')
         ]]
     
 
@@ -784,11 +788,11 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"🦋 𝗣𝗮𝗴𝗲 1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝗡𝗲𝘅𝘁 ➡️",callback_data=f"next_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"🎭 𝗣𝗔𝗚𝗘 1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝗡𝗲𝘅𝘁 ➡️",callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🦋 𝗣𝗮𝗴𝗲 1/1",callback_data="pages")]
+            [InlineKeyboardButton(text="🎭 𝗣𝗔𝗚𝗘 1/1",callback_data="pages")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if IMDB else None
     if imdb:
