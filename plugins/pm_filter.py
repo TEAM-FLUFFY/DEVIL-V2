@@ -401,7 +401,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚒️𝗛𝗘𝗟𝗣⚒️', callback_data='help'),
             InlineKeyboardButton('🔍𝗦𝗘𝗔𝗥𝗖𝗛🔍', switch_inline_query_current_chat=''),
             ],[
-            InlineKeyboardButton('🛡️𝗔𝗗𝗗 𝗠𝗘 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
             InlineKeyboardButton('🕸️𝗔𝗕𝗢𝗨𝗧🕸️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
