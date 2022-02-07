@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/moiveupdates2021')
+                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/ADHOLOKAMHD')
             ],
             [
                 InlineKeyboardButton('𝙷𝙴𝙻𝙿', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -37,10 +37,11 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⭐𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗔 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣⭐', url='http://t.me/Fs_v3bot?startgroup=true'),
+            InlineKeyboardButton('⚡𝗛𝗘𝗟𝗣⚡', callback_data='help'),
             InlineKeyboardButton('🕵️‍♂️𝗦𝗘𝗔𝗥𝗖𝗛🕵️‍♂️', switch_inline_query_current_chat=''),
             ],[
-            InlineKeyboardButton('⚡𝗛𝗘𝗟𝗣⚡', callback_data='help')
+            InlineKeyboardButton('⭐𝗟𝗘𝗧'𝗦 𝗥𝗢𝗟𝗟⭐', url='http://t.me/Fs_v3bot?startgroup=true')
+            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -75,10 +76,10 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⭐𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐀 𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏⭐', url='http://t.me/Fs_v3bot?startgroup=true'),
+            InlineKeyboardButton('⚡𝗛𝗘𝗟𝗣⚡', callback_data='help'),
             InlineKeyboardButton('🕵️‍♂️𝗦𝗘𝗔𝗥𝗖𝗛🕵️‍♂️', switch_inline_query_current_chat=''),
             ],[
-            InlineKeyboardButton('⚡𝗛𝗘𝗟𝗣⚡', callback_data='help')
+            InlineKeyboardButton('⭐𝗟𝗘𝗧'𝗦 𝗥𝗢𝗟𝗟⭐', url='http://t.me/Fs_v3bot?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
