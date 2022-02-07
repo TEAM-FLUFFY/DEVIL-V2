@@ -38,9 +38,9 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('🔮𝖥𝖤𝖠𝖳𝖴𝖱𝖤𝖲🔮', callback_data='help'),
-            InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖸𝖮𝖴𝖱 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
+            InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖠 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
             ],[
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('🤠𝖠𝖡𝖮𝖴𝖳🤠', callback_data='about'),
             ],[
             InlineKeyboardButton('💡𝖦𝖱𝖮𝖴𝖯💡', url='https://t.me/ADHOLOKAMHD'),
             InlineKeyboardButton('💡𝖢𝖧𝖠𝖭𝖭𝖤𝖫💡', url='https://t.me/ADHOLOKAMHDCHANNEL')
@@ -80,9 +80,9 @@ async def start(client, message):
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('🔮𝖥𝖤𝖠𝖳𝖴𝖱𝖤𝖲🔮', callback_data='help'),
-            InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖸𝖮𝖴𝖱 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
+            InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖠 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
             ],[
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('🤠𝖠𝖡𝖮𝖴𝖳🤠', callback_data='about'),
             ],[
             InlineKeyboardButton('💡𝖦𝖱𝖮𝖴𝖯💡', url='https://t.me/ADHOLOKAMHD'),
             InlineKeyboardButton('💡𝖢𝖧𝖠𝖭𝖭𝖤𝖫💡', url='https://t.me/ADHOLOKAMHDCHANNEL')
