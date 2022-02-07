@@ -40,7 +40,7 @@ async def start(client, message):
             InlineKeyboardButton('⚡𝗛𝗘𝗟𝗣⚡', callback_data='help'),
             InlineKeyboardButton('🕵️‍♂️𝗦𝗘𝗔𝗥𝗖𝗛🕵️‍♂️', switch_inline_query_current_chat=''),
             ],[
-            InlineKeyboardButton('⭐𝗟𝗘𝗧'𝗦 𝗥𝗢𝗟𝗟⭐', url='http://t.me/Fs_v3bot?startgroup=true')
+            InlineKeyboardButton('⭐𝗟𝗘𝗧'𝗦 𝗥𝗢𝗟𝗟⭐', url='http://t.me/Fs_v3bot?startgroup=true'),
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
