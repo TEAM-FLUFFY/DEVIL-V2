@@ -399,7 +399,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('⚒️𝗛𝗘𝗟𝗣⚒️', callback_data='help'),
-            InlineKeyboardButton('🔍𝗦𝗘𝗔𝗥𝗖𝗛🔍', switch_inline_query_current_chat=''),
             ],[
             InlineKeyboardButton('🕸️𝗔𝗕𝗢𝗨𝗧🕸️', callback_data='about')
         ]]
@@ -425,7 +424,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍𝚂𝙴𝙰𝚁𝙲𝙷 ', callback_data='search')
             ],[
             InlineKeyboardButton('📄𝚃𝙶𝚁𝙰𝙿𝙷 ', callback_data='tgraph'),
-            InlineKeyboardButton('🎗️𝚆𝙷𝙾𝙸𝚂 ', callback_data='whois'),
             InlineKeyboardButton('⭐𝙵𝚄𝙽 ', callback_data='fun')
             ],[
             InlineKeyboardButton('😵𝙳𝙴𝙰𝙳 ', callback_data='alive'),
@@ -433,7 +431,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🖇️𝙹𝚂𝙾𝙽 ', callback_data='json')
             ],[
             InlineKeyboardButton('📌𝙿𝙸𝙽 ', callback_data='pin'),
-            InlineKeyboardButton('🦠𝙲𝙾𝚅𝙸𝙳 ', callback_data='corona'),
             InlineKeyboardButton('👻𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙸𝙳', callback_data='stickerid')
             ],[
             InlineKeyboardButton('❈ 𝙱𝙰𝙲𝙺 ❈', callback_data='start')
@@ -450,7 +447,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🎭𝚂𝚃𝙰𝚃𝚂🎭', callback_data='stats'),
             InlineKeyboardButton('♻️𝚂𝙾𝚄𝚁𝙲𝙴♻️', url='https://github.com/TEAM-FLUFFY/FluffyV1')
             ],[
-            InlineKeyboardButton('🔍𝚂𝙴𝙰𝚁𝙲𝙷 𝙼𝙾𝚅𝙸𝙴𝚂🔍', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🔮𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂🔮', callback_data='help')
             ],[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
