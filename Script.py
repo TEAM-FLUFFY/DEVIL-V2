@@ -249,11 +249,11 @@ This module only works for my admins
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all users."""
 
-    STATUS_TXT = """<b>Total Files:</b> <code>{}</code>
-<b>Total Users:</b> <code>{}</code>
-<b>Total Chats:</b> <code>{}</code>
-<b>Used Storage:</b> <code>{}</code> MiB
-<b>Free Storage:</b> <code>{}</code> MiB"""
+    STATUS_TXT = """<b>𝖳𝖮𝖳𝖠𝖫 𝖥𝖨𝖫𝖤𝖲:</b> <code>{}</code>
+<b>𝖳𝖮𝖳𝖠𝖫 𝖴𝖲𝖤𝖱𝖲:</b> <code>{}</code>
+<b>𝖳𝖮𝖳𝖠𝖫 𝖢𝖧𝖠𝖳𝖲:</b> <code>{}</code>
+<b>𝖴𝖲𝖤𝖣 𝖲𝖳𝖮𝖱𝖠𝖦𝖤:</b> <code>{}</code> MiB
+<b>𝖥𝖱𝖤𝖤 𝖲𝖳𝖮𝖱𝖠𝖦𝖤:</b> <code>{}</code> MiB"""
 
     FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
@@ -262,14 +262,14 @@ __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have T
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
 
     LOG_TEXT_G = """#NewGroup
-Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
+𝖦𝖱𝖮𝖴𝖯 = {}(<code>{}</code>)
+𝖳𝖮𝖳𝖠𝖫 𝖬𝖤𝖬𝖡𝖤𝖱𝖲 = <code>{}</code>
+𝖠𝖣𝖣𝖤𝖣 𝖡𝖸 - {}
 """
 
     LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}"""
+𝖨𝖣 - <code>{}</code>
+𝖭𝖠𝖬𝖤 - {}"""
 
     ZOMBIES_TXT = """Help: <b>Zombies</b>
 
