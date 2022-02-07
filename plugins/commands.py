@@ -38,7 +38,6 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('⭐𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗔 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣⭐', url='http://t.me/Fs_v3bot?startgroup=true'),
-            ],[
             InlineKeyboardButton('🕵️‍♂️𝗦𝗘𝗔𝗥𝗖𝗛🕵️‍♂️', switch_inline_query_current_chat=''),
             ],[
             InlineKeyboardButton('⚡𝗛𝗘𝗟𝗣⚡', callback_data='help')
@@ -77,7 +76,6 @@ async def start(client, message):
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('⭐𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐀 𝐂𝐇𝐀𝐓 𝐆𝐑𝐎𝐔𝐏⭐', url='http://t.me/Fs_v3bot?startgroup=true'),
-            ],[
             InlineKeyboardButton('🕵️‍♂️𝗦𝗘𝗔𝗥𝗖𝗛🕵️‍♂️', switch_inline_query_current_chat=''),
             ],[
             InlineKeyboardButton('⚡𝗛𝗘𝗟𝗣⚡', callback_data='help')
