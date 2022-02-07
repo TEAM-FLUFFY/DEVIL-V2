@@ -38,7 +38,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('🔮𝖥𝖤𝖠𝖳𝖴𝖱𝖤𝖲🔮', callback_data='help'),
-            InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖠 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
+            InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖠 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Rocky_Bhaikgfbot?startgroup=true'),
             ],[
             InlineKeyboardButton('💡𝖦𝖱𝖮𝖴𝖯💡', url='https://t.me/ADHOLOKAMHD'),
             InlineKeyboardButton('💡𝖢𝖧𝖠𝖭𝖭𝖤𝖫💡', url='https://t.me/ADHOLOKAMHDCHANNEL'),
@@ -79,7 +79,7 @@ async def start(client, message):
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('🔮𝖥𝖤𝖠𝖳𝖴𝖱𝖤𝖲🔮', callback_data='help'),
-            InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖠 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
+            InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖠 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Rocky_Bhaikgfbot?startgroup=true'),
             ],[
             InlineKeyboardButton('💡𝖦𝖱𝖮𝖴𝖯💡', url='https://t.me/ADHOLOKAMHD'),
             InlineKeyboardButton('💡𝖢𝖧𝖠𝖭𝖭𝖤𝖫💡', url='https://t.me/ADHOLOKAMHDCHANNEL'),
