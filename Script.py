@@ -1,6 +1,7 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝚈 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/Rocky_Bhaikgfbot>𝖧𝖣 𝖱𝖮𝖢𝖪𝖸 𝖡𝖧𝖠𝖨</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 , 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙳 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂.. ⚡⚡"""
+    START_TXT = """𝙷𝙴𝚈 ❤️{},
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 , <a href='https://t.me/Rocky_Bhaikgfbot'>𝖧𝖣 𝖱𝖮𝖢𝖪𝖸 𝖡𝖧𝖠𝖨</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙰 𝙼𝙾𝚅𝙸𝙴 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝙰 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝚂𝚄𝚁𝙴 𝙰𝙳𝙼𝙸𝙽 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂... ❤️
+"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
     ABOUT_TXT = """
@@ -9,7 +10,7 @@ class script(object):
 ╔════❰ 𝐉𝐨𝐡𝐧 𝐃𝐮𝐫𝐚𝐢𝐫𝐚𝐣 ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣ 
 ║┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Rocky_Bhaikgfbot"> 𝖧𝖣 𝖱𝖮𝖢𝖪𝖸 𝖡𝖧𝖠𝖨 </a>
-║┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁- <a href="https://t.me/TEAM_KERALA"> 𝗥𝗢𝗖𝗞𝗬 𝗕𝗛𝗔𝗜 </a>
+║┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁- <a href="https://t.me/TEAM_KERALA"> 𝖧𝖣 𝖮𝖶𝖭𝖤𝖱 </a>
 ║┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ║┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ║┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -18,13 +19,21 @@ class script(object):
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝑰 𝒂𝒎  𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
-- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://github.com/TEAM-FLUFFY/FluffyV1"> 🎗️𝗖𝗟𝗜𝗖𝗞 𝗠𝗘🎗️ </a>
+- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://github.com/TEAM-FLUFFY/FluffyV1"> 𝚂𝙴𝙳 𝙻𝙸𝙵𝙴💘 </a>
 
 𝙲𝚁𝙴𝙰𝚃𝙾𝚁:
 <a href="https://t.me/albintko"> 𝙰𝙻𝙱𝙸𝙽  </a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
+•/whois :-give a user full details"""
+    ALIVE_TXT ="""<b>ALIVE MODULE</b>
+• /alive - check me alive or dead🤧
+Just for a rasam😂"""
+    CORONA_TXT ="""<b>Here is the help for the coron information module</b>
+➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
+
+➡️ <b>example</b> : - /covid India"""
     STICKER_TXT ="""<b>COMMAND /stickerid\n𝖨𝖿 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 𝖢𝗅𝗂𝖼𝗄 /stickerid 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 (𝖱𝖾𝗉𝗅𝗒 𝖶𝗂𝗍𝗁 𝖲𝗍𝗂𝖼𝗄𝖾𝗋)</b>"""
     SONG_TXT ="""<b>SONG MODULE</b>
 Song Download
