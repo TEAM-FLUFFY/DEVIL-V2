@@ -398,11 +398,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💡𝗛𝗘𝗟𝗣💡', callback_data='help'),
+            InlineKeyboardButton('⚒️𝗛𝗘𝗟𝗣⚒️', callback_data='help'),
             InlineKeyboardButton('🔍𝗦𝗘𝗔𝗥𝗖𝗛🔍', switch_inline_query_current_chat=''),
             ],[
-            InlineKeyboardButton('🕯️𝗔𝗗𝗗 𝗠𝗘 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣🕯️', url='http://t.me/Fs_v3bot?startgroup=true'),
-            InlineKeyboardButton('🤠𝗔𝗕𝗢𝗨𝗧🤠', callback_data='about')
+            InlineKeyboardButton('🛡️𝗔𝗗𝗗 𝗠𝗘 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
+            InlineKeyboardButton('🕸️𝗔𝗕𝗢𝗨𝗧🕸️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -413,29 +413,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[            
-            InlineKeyboardButton(' 𝙰𝙳𝙼𝙸𝙽 ', callback_data='admin'),
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃 ', callback_data='coct'),
-            InlineKeyboardButton('𝙵𝙸𝙻𝚃𝙴𝚁𝚂 ', callback_data='auto_manual')
+            InlineKeyboardButton(' 🤭𝙰𝙳𝙼𝙸𝙽 ', callback_data='admin'),
+            InlineKeyboardButton('💘𝙲𝙾𝙽𝙽𝙴𝙲𝚃 ', callback_data='coct'),
+            InlineKeyboardButton('🏷️𝙵𝙸𝙻𝚃𝙴𝚁𝚂 ', callback_data='auto_manual')
             ],[
-            InlineKeyboardButton('𝙶𝚁𝙰𝙽𝚃𝚂 ', callback_data='gtrans'),
-            InlineKeyboardButton('𝙸𝙽𝙵𝙾 ', callback_data='info'),
-            InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴 ', callback_data='paste')
+            InlineKeyboardButton('🕸️𝙶𝚁𝙰𝙽𝚃𝚂 ', callback_data='gtrans'),
+            InlineKeyboardButton('🕵️‍♂️𝙸𝙽𝙵𝙾 ', callback_data='info'),
+            InlineKeyboardButton('📌𝙿𝙰𝚂𝚃𝙴 ', callback_data='paste')
             ],[
-            InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴 ', callback_data='purge'),
-            InlineKeyboardButton('𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃 ', callback_data='restric'),
-            InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷 ', callback_data='search')
+            InlineKeyboardButton('👺𝙿𝚄𝚁𝙶𝙴 ', callback_data='purge'),
+            InlineKeyboardButton('🔇𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃 ', callback_data='restric'),
+            InlineKeyboardButton('🔍𝚂𝙴𝙰𝚁𝙲𝙷 ', callback_data='search')
             ],[
-            InlineKeyboardButton('𝚃𝙶𝚁𝙰𝙿𝙷 ', callback_data='tgraph'),
-            InlineKeyboardButton('𝚆𝙷𝙾𝙸𝚂 ', callback_data='whois'),
-            InlineKeyboardButton('𝙵𝚄𝙽 ', callback_data='fun')
+            InlineKeyboardButton('📄𝚃𝙶𝚁𝙰𝙿𝙷 ', callback_data='tgraph'),
+            InlineKeyboardButton('🎗️𝚆𝙷𝙾𝙸𝚂 ', callback_data='whois'),
+            InlineKeyboardButton('⭐𝙵𝚄𝙽 ', callback_data='fun')
             ],[
-            InlineKeyboardButton('𝙰𝙻𝙸𝚅𝙴 ', callback_data='alive'),
-            InlineKeyboardButton('𝚂𝙾𝙽𝙶 ', callback_data='song'),
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽 ', callback_data='json')
+            InlineKeyboardButton('😵𝙳𝙴𝙰𝙳 ', callback_data='alive'),
+            InlineKeyboardButton('🎵𝚂𝙾𝙽𝙶 ', callback_data='song'),
+            InlineKeyboardButton('🖇️𝙹𝚂𝙾𝙽 ', callback_data='json')
             ],[
-            InlineKeyboardButton('𝙿𝙸𝙽 ', callback_data='pin'),
-            InlineKeyboardButton('𝙲𝙾𝚅𝙸𝙳 ', callback_data='corona'),
-            InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙸𝙳', callback_data='stickerid')
+            InlineKeyboardButton('📌𝙿𝙸𝙽 ', callback_data='pin'),
+            InlineKeyboardButton('🦠𝙲𝙾𝚅𝙸𝙳 ', callback_data='corona'),
+            InlineKeyboardButton('👻𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙸𝙳', callback_data='stickerid')
             ],[
             InlineKeyboardButton('❈ 𝙱𝙰𝙲𝙺 ❈', callback_data='start')
         ]]
@@ -448,11 +448,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚂', callback_data='stats'),
-            InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', url='https://github.com/TEAM-FLUFFY/FluffyV1')
+            InlineKeyboardButton('🎭𝚂𝚃𝙰𝚃𝚂🎭', callback_data='stats'),
+            InlineKeyboardButton('♻️𝚂𝙾𝚄𝚁𝙲𝙴♻️', url='https://github.com/TEAM-FLUFFY/FluffyV1')
             ],[
-            InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷 𝙼𝙾𝚅𝙸𝙴𝚂', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂', callback_data='help')
+            InlineKeyboardButton('🔍𝚂𝙴𝙰𝚁𝙲𝙷 𝙼𝙾𝚅𝙸𝙴𝚂🔍', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔮𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂🔮', callback_data='help')
             ],[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
             InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴', callback_data='close_data')
