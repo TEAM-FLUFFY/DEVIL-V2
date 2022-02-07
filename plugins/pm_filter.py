@@ -443,7 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('🎭𝚂𝚃𝙰𝚃𝚂🎭', callback_data='stats'),
-            InlineKeyboardButton('♻️𝚂𝙾𝚄𝚁𝙲𝙴♻️', url='https://github.com/TEAM-FLUFFY/FluffyV1')
+            InlineKeyboardButton('💘𝚂𝙴𝙳 𝙻𝙸𝙵𝙴💘', url='https://github.com/TEAM-FLUFFY/FluffyV1')
             ],[
             InlineKeyboardButton('🔮𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂🔮', callback_data='help')
             ],[
