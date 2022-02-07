@@ -40,11 +40,10 @@ async def start(client, message):
             InlineKeyboardButton('🔮𝖥𝖤𝖠𝖳𝖴𝖱𝖤𝖲🔮', callback_data='help'),
             InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖠 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
             ],[
-            InlineKeyboardButton('🤠𝖠𝖡𝖮𝖴𝖳🤠', callback_data='about'),
-            ],[
             InlineKeyboardButton('💡𝖦𝖱𝖮𝖴𝖯💡', url='https://t.me/ADHOLOKAMHD'),
-            InlineKeyboardButton('💡𝖢𝖧𝖠𝖭𝖭𝖤𝖫💡', url='https://t.me/ADHOLOKAMHDCHANNEL')
-            
+            InlineKeyboardButton('💡𝖢𝖧𝖠𝖭𝖭𝖤𝖫💡', url='https://t.me/ADHOLOKAMHDCHANNEL'),
+            ],[
+            InlineKeyboardButton('🤠𝖠𝖡𝖮𝖴𝖳🤠', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -82,10 +81,10 @@ async def start(client, message):
             InlineKeyboardButton('🔮𝖥𝖤𝖠𝖳𝖴𝖱𝖤𝖲🔮', callback_data='help'),
             InlineKeyboardButton('🛡️𝖠𝖣𝖣 𝖬𝖤 𝖳𝖮 𝖠 𝖦𝖱𝖮𝖴𝖯🛡️', url='http://t.me/Fs_v3bot?startgroup=true'),
             ],[
-            InlineKeyboardButton('🤠𝖠𝖡𝖮𝖴𝖳🤠', callback_data='about'),
-            ],[
             InlineKeyboardButton('💡𝖦𝖱𝖮𝖴𝖯💡', url='https://t.me/ADHOLOKAMHD'),
-            InlineKeyboardButton('💡𝖢𝖧𝖠𝖭𝖭𝖤𝖫💡', url='https://t.me/ADHOLOKAMHDCHANNEL')
+            InlineKeyboardButton('💡𝖢𝖧𝖠𝖭𝖭𝖤𝖫💡', url='https://t.me/ADHOLOKAMHDCHANNEL'),
+            ],[
+            InlineKeyboardButton('🤠𝖠𝖡𝖮𝖴𝖳🤠', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
